@@ -11,3 +11,51 @@
 // }
 
 
+// Обчислити бонус для працівника зарплати, якщо він працює більше 40 годин на тиждень.
+// Бонус дорівнює 20 % від зарплати за додаткові години.(використати тернарний оператор)
+
+// const normalLoad = 40;
+// const factLoad = Number(prompt("Enter your load"));
+// const bonus = 0.2 * (factLoad - normalLoad);
+
+// console.log(typeof factLoad)
+// console.log(bonus)
+
+// Вихідний код:
+// let a = 5;
+// let b = 10;
+// let c = 15;
+// let d = 20;
+
+// Заміни вирази зі стандартними математичними операторами на комбінований оператор присвоєння з додаванням, відніманням, множенням і діленням:
+// Значення змінної a дорівнюватиме 7 - використовуй оператор +=
+// Значення змінної b дорівнюватиме 6 - використовуй  оператор -=
+// Значення змінної c дорівнюватиме 45 - використовуй оператор *=
+// Значення змінної d дорівнюватиме 2 - використовуй оператор /=
+
+// let a = 5;
+// let b = 10;
+// let c = 15;
+// let d = 20;
+
+// a += 2;
+// b -= 4;
+// c *= 3;
+// d /= 10;
+
+// console.log(a)
+// console.log(b)
+// console.log(c)
+// console.log(d)
+
+// Вихідний код: const productName = "Droid"; const pricePerItem = 3500;
+// Оголоси змінну message і запиши в неї повідомлення про покупку,
+// рядок у форматі: "You picked <назва товару>, price per item is <ціна товару> credits".Де < назва товару > і < ціна товару > — це значення змінних productName і pricePerItem.
+// Використовуй синтаксис шаблонних рядків.
+
+const productName = "Droid";
+const pricePerItem = 60000;
+const message = `You picked ${productName}, 
+price per item is ${pricePerItem} credits".`
+
+console.log(message)

@@ -2,10 +2,10 @@
 
 const max = Math.max(2, 34, 99, 3, 22, 36, 733, 18);
 const min = Math.min(2, 34, 99, 3, 22, 36, 733, 18);
-console.log(max);
-console.log(min);
+//console.log(max);
+//console.log(min);
 const maxNumber = getMaxNumber();
-console.log(maxNumber);
+//console.log(maxNumber);
 // console.log(getMinNumber); не працює, якщо функція створена через змінну
 // Оголошення функції function declaration
 function getMaxNumber() {
@@ -27,7 +27,7 @@ function sumNumbers(num1, num2 = 10) {
 
 const a = 12;
 
-console.log(sumNumbers(a));
+//console.log(sumNumbers(a));
 
 // Оголоси дві змінні, які зберігають назву та ціну товару: name і price. Присвоїти змінним наступні характеристики товару (відразу при оголошенні) назва: MacBook Pro 13″, ціна: 10000.
 
@@ -91,8 +91,24 @@ function isMatchPassword(password) {
   
 }
 
-const password = prompt('Введіть password');
+//const password = prompt('Введіть password');
 
 
 
-console.log(isMatchPassword(password))
+//console.log(isMatchPassword(password))
+
+// Вихідні дані:
+// string - оригінальний рядок
+// length - кількість символів з початку рядка для підрядка
+// Присвой змінній substring вираз створення підрядка довжиною length символів (від початку) з рядка string.
+
+function createSubstring(string, length)
+{
+  return string.slice(0, length); //
+}
+
+const string = "Присвой змінній substring вираз створення підрядка довжиною length символів (від початку) з рядка string.";
+const length = 25;
+
+console.log(createSubstring("hello", 3));
+console.log(createSubstring(string, length));

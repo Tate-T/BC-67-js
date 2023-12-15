@@ -39,8 +39,8 @@ function showMessage(productName, productPrice, productQuantity) {
   return message;
 }
 
-console.log(showMessage("MacBook Pro 13″", 10000, 5));
-console.log(showMessage("MacBook R″", 20000, 90));
+// console.log(showMessage("MacBook Pro 13″", 10000, 5));
+// console.log(showMessage("MacBook R″", 20000, 90));
 
 // function showMessage(productName, productPrice, productQuantity) {
 //   return `Обрано «${productName}», ціна за штуку ${productPrice} кредитів, загальна вартість складає ${
@@ -52,3 +52,47 @@ console.log(showMessage("MacBook R″", 20000, 90));
 //   `Обрано «${productName}», ціна за штуку ${productPrice} кредитів, загальна вартість складає ${
 //     productPrice * productQuantity
 //   }`;
+
+
+// Створити змінну для зберігання числа.
+// Використати метод Math.sqrt() для обчислення квадратного кореня числа та вивести результат в консоль.
+
+// const number = Number(prompt('Введіть число'));
+// let message ='';
+// function sqrtNum(a) {
+//   if (a > 50) {
+    
+//     return Math.sqrt(a)
+//   } else {
+//     message = 'sorry '
+//     return message
+//   }
+  
+ 
+// }
+// console.log(message)
+// console.log(sqrtNum(number));
+// console.log(number)
+
+// Змінна SAVED_PASSWORD зберігає значення попередньо збереженого пароля. Перевірте чи співпадає введений пароль password із збереженим паролем.
+// Присвой змінній isMatch вираз перевірки рівності введених і попередньо збережених паролів. Результатом виразу перевірки повинно бути true,
+// якщо значення збігаються, і false - якщо ні.
+
+function isMatchPassword(password) {
+  
+  const SAVED_PASSWORD = '34546jjhjk';
+  const isMatch = SAVED_PASSWORD === password;
+
+  if (isMatch) {
+    return 'is ok=)'
+  } else {
+    return 'all is bad'
+  }
+  
+}
+
+const password = prompt('Введіть password');
+
+
+
+console.log(isMatchPassword(password))

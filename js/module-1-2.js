@@ -110,5 +110,18 @@ function createSubstring(string, length)
 const string = "Присвой змінній substring вираз створення підрядка довжиною length символів (від початку) з рядка string.";
 const length = 25;
 
-console.log(createSubstring("hello", 3));
-console.log(createSubstring(string, length));
+// console.log(createSubstring("hello", 3));
+// console.log(createSubstring(string, length));
+
+
+// Створіть змінну userName з ім’ям користувача і змінну payment з сумою до оплати. За допомогою шаблонного рядка виведіть на екран через alert повідомлення на прикладі цього: «Дякуємо, Олександро! До сплати 300 гривень».
+
+function showUserMessage(userName, price, quantity = 1) {
+  const totalPrice = price * quantity;
+  const message = `Дякуємо, ${userName}! До сплати ${totalPrice} гривень`;
+  return message;
+}
+
+showUserMessage('Stanislav', 5000, 2);
+console.log(showUserMessage('Stanislav', 5000, 2));
+console.log(showUserMessage('Andriy', 5000, 20));

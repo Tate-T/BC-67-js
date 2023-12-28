@@ -7,15 +7,20 @@
 
 // // znaitu seredniy bal ychniv
 
-// function countGrade(students) {
+// function countGrade(students, sumGrades) {
 //   const grades = students.map((student) => student.grade);
 //   console.log(grades);
+
+//   const midle = sumGrades(grades) / grades.length;
+//   return midle;
+// }
+
+// console.log(countGrade(students, sumGrades));
+
+// function sumGrades(grades) {
 //   let totalgrades = 0;
 //   grades.forEach((grade) => {
 //     totalgrades += grade;
 //   });
-//   const midle = totalgrades / grades.length;
-//   return midle;
+//   return totalgrades;
 // }
-
-// console.log(countGrade(students));

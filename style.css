@@ -19,3 +19,9 @@
 .is-close {
     display: none;
 }
+
+.box {
+    height: 150px;
+    width: 150px;
+    background-color: aqua;
+}

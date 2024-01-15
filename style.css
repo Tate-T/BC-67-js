@@ -9,12 +9,12 @@
     font-size: px;
 }
 
-.btn {
+/* .btn {
     display: block;
     background-color: brown;
     width: 100px;
     height: 50px;
-}
+} */
 
 .is-close {
     display: none;
@@ -46,4 +46,8 @@
 
 .box2 {
     transform: translate(-10%, -95%);
+}
+
+.btn {
+    box-shadow: 3px 5px 10px 2px rgb(187, 184, 6);
 }

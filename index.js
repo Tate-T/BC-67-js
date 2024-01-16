@@ -57,6 +57,8 @@
 // // 2) Для створення графіка використати конструктор Chart, який отримує два аргументи: елемент canvas, до якого буде додано графік, та об'єкт конфігурації, який містить дані для відображення та налаштування графіка.
 
 // const canvasEl = document.querySelector("canvas");
+// const canvasBar = document.getElementById("barChart");
+// console.log(canvasBar);
 // console.log(canvasEl);
 // const config = {
 //   type: "line",
@@ -64,3 +66,10 @@
 //   options: {},
 // };
 // const salesChart = new Chart(canvasEl, config);
+
+// const configBar = {
+//   type: "bar",
+//   data: chartData,
+//   options: {},
+// };
+// const barChart = new Chart(canvasBar, configBar);

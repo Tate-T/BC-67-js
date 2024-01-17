@@ -40,3 +40,19 @@ function makeArrKeysLS() {
 
 }
 console.log(makeArrKeysLS());
+
+// Створіть функцію, яка буде перевіряти, чи існує об'єкт в localStorage за ключем
+
+function checkLocalStorage () {
+    const isEmptyLocalStorage = typeof(Storage);
+    if ( isEmptyLocalStorage === "undefined"){
+return "LocalStorage is empty!"
+    } else {
+    const keysLSArr = Object.keys(localStorage);
+    return keysLSArr.forEach( (key) => {
+     console.log(localStorage.getItem(key));
+    })
+    }
+
+}
+console.log(checkLocalStorage());

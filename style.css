@@ -18,17 +18,18 @@
 
 .is-close {
     display: none;
+
 }
 
 .box {
     height: 150px;
     width: 150px;
-    background-color: aqua;
+    background-color: rgb(0, 255, 255);
 }
 
 /*=========module 8- task-1*/
 
-.box {
+/* .box {
     width: 50px;
     height: 50px;
     background-color: red;
@@ -37,7 +38,7 @@
     top: 50%;
     transform: translate(-50%, -50%);
     transition: transform 1s linear;
-}
+} */
 
 .box1 {
     transform: translate(-95%, -10%);

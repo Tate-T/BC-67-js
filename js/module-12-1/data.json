@@ -1,0 +1,34 @@
+{
+  "student": [
+    {
+      "id": "1",
+      "name": "Andriy",
+      "course": "js",
+      "city": "Kyiv"
+    },
+    {
+      "id": "3",
+      "name": "Djon",
+      "course": "React",
+      "city": "Dnipro"
+    },
+    {
+      "id": "33a6",
+      "name": "Natali",
+      "course": "js",
+      "city": "Mykolaiv"
+    },
+    {
+      "id": "3786",
+      "name": "Vasya",
+      "course": "HTML",
+      "city": "Lviv"
+    },
+    {
+      "id": "1b35",
+      "name": "Kat",
+      "course": "Node",
+      "city": "Dnipro"
+    }
+  ]
+}
